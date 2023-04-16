@@ -32,7 +32,4 @@ function toggleMenu() {
   }
 }
 
-const today = new Date();
-const year = today.getFullYear();
-document.getElementById("year").textContent = year;
 

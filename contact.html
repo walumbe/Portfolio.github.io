@@ -71,9 +71,13 @@
   </main>
 
   <footer id="main-footer">
-    Copyright &copy;  <p id="year"></p>
+    Copyright &copy; <span id="current-year"></span>
   </footer>
-
+  <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+    console.log(currentYear)
+  </script>
   <script src="js/main.js"></script>
 </body>
 
